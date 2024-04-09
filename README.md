@@ -11,5 +11,10 @@ cd lasmanpy
 pip install .
 ```
 
+## Usage
+```bash
+lasmanpy -h
+```
+
 ## TODO
 - Use PyO3 to make use of Rust implementation of LASman.
