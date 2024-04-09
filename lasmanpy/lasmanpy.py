@@ -7,7 +7,7 @@ TOOLS = [clip]
 
 
 def get_parser() -> argparse.ArgumentParser:
-    parser = argparse.ArgumentParser("lasman")
+    parser = argparse.ArgumentParser("lasmanpy")
 
     subparser = parser.add_subparsers(title="Tools", required=True)
     for tool in TOOLS:

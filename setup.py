@@ -1,11 +1,11 @@
 from setuptools import setup
 
 version = None
-with open("lasman/_version.py", "r") as fp:
+with open("lasmanpy/_version.py", "r") as fp:
     exec(next(line for line in fp if "version" in line))
 
 setup(
-    name="lasman",
+    name="lasmanpy",
     author="Constantinos Menelaou",
     author_email="konmenel@gmail.com",
     description="LAS manupilation tools",
@@ -19,6 +19,6 @@ setup(
         "alive-progress",
     ],
     entry_points={
-        "console_scripts": ["lasman=lasman.lasman:main"],
+        "console_scripts": ["lasmanpy=lasmanpy.lasmanpy:main"],
     },
 )

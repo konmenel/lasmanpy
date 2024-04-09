@@ -1,4 +1,4 @@
-# lasman
+# LASman
 LAS manupilation tools
 
 ## Descrition
